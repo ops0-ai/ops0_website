@@ -56,7 +56,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="lg:hidden p-2 text-gray-400 hover:text-white transition-colors"
+            className="lg:hidden p-2 text-gray-400 font-medium hover:text-white transition-colors"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

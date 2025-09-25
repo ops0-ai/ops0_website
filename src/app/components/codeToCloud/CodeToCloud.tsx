@@ -46,7 +46,7 @@ const StepCard = ({ step }: { step: (typeof steps)[0] }) => (
 
     {/* Dot below each card */}
     <div
-      className={`absolute -top-[-30px] left-2 transform -translate-x-1/2 w-2 h-2 ${step.badgeColor}`}
+      className={`absolute max-md:hidden -top-[-30px] left-2 transform -translate-x-1/2 w-2 h-2 ${step.badgeColor}`}
     ></div>
   </div>
 );
@@ -80,7 +80,7 @@ export default function CodeToCloud() {
       <div className="relative z-10 flex flex-col justify-center items-center">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center mb-16 md:mb-24 ">
-          <h1 className="text-center text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight max-w-[60%]">
+          <h1 className="text-center text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight md:max-w-[60%]">
             From{" "}
             <span className="bg-gradient-to-b from-[#A4A0FF] to-[#6CE0FF] bg-clip-text text-transparent">
               code to cloud

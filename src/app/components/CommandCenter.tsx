@@ -7,8 +7,8 @@ export default function CommandCenter() {
   return (
     <section className="  flex flex-col items-center   container mx-auto    px-6">
       {/* Top label */}
-      <div className="mb-16">
-        <span className="px-4 py-2 bg-gray-800/80 rounded-md text-white text-sm font-mono">
+      <div className="mb-16 max-md:text-center">
+        <span className="px-4 py-2  md:bg-gray-800/80 rounded-md text-white text-sm font-mono  ">
           UNIFY CONTROL ON SINGULAR COMMAND CENTER
         </span>
       </div>
