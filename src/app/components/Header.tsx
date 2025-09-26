@@ -55,14 +55,17 @@ export default function Header() {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="lg:hidden">
+            <div className="lg:hidden flex">
+
+              <button className="demo-button mr-1">
+                DEMO WITH FOUNDER
+              </button>
               <button
                 onClick={toggleMenu}
                 className="lg:hidden mr-2 w-9 h-9 rounded-[35px] flex items-center justify-center p-1.5 top-1.5 left-[301px] gap-2 bg-[radial-gradient(91.5%_91.5%_at_8.5%_0%,_rgba(229,213,255,0.12)_0%,_rgba(255,255,255,0.12)_100%)] text-gray-400 font-medium hover:text-white transition-colors"
               >
                 {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>
-
             </div>
           </nav>
 

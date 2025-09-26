@@ -13,13 +13,12 @@ import Testimonials from "./components/testimonial/Testimonial";
 export default function Home() {
   return (
     <div className="w-full h-full bg-[black]">
-      <div className="">
-        <div className="bg-[url('/bg/BG.svg')] bg-cover bg-no-repeat bg-center h-screen w-full">
+      <div className="mx-auto">
+        <div className="bg-[url('/bg/BG.svg')] lg:bg-cover bg-no-repeat bg-center h-screen w-full">
           <Header />
           <HeroSection />
         </div>
         <div className="space-y-[120px] max-md:px-2">
-          <div></div>
           <InfrastructureAgentMain />
           <AiDevopsAgent />
           <CodeToCloud />
