@@ -12,20 +12,22 @@ import Testimonials from "./components/testimonial/Testimonial";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-[black] pt-3 max-md:px-2">
-      <div className="container mx-auto">
-        <Header />
-        <div className="space-y-[120px]">
-          <div></div>
+    <div className="w-full h-full bg-[black]">
+      <div className="">
+        <div className="bg-[url('/bg/BG.svg')] bg-cover bg-no-repeat bg-center h-screen w-full">
+          <Header />
           <HeroSection />
+        </div>
+        <div className="space-y-[120px] max-md:px-2">
+          <div></div>
           <InfrastructureAgentMain />
           <AiDevopsAgent />
-          <CodeToCloud/>
-          <PricingMain/>
-          <Testimonials/>
-          <BattleTest/>
-          <FAQPage/>
-          <Footer/>
+          <CodeToCloud />
+          <PricingMain />
+          <Testimonials />
+          <BattleTest />
+          <FAQPage />
+          <Footer />
         </div>
       </div>
     </div>

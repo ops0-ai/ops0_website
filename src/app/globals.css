@@ -30,3 +30,51 @@ body {
   border: 1px solid transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.254), rgba(11, 39, 98, 0.593)) 1;
 }
+
+.nav-link {
+  font-family: Geist Mono;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.login-button {
+  width: 60px;
+  height: 36px;
+  border-radius: 35px;
+  padding: 6px 12px;
+  gap: 8px;
+  font-family: Geist Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.demo-button {
+  /* width: 200px; */
+  height: 36px;
+  border-radius: 35px;
+  padding: 6px 12px;
+  gap: 8px;
+  border-width: 1px;
+  border: 1px solid #000000;
+  font-family: Geist Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0C131C;
+  background: radial-gradient(91.5% 91.5% at 8.5% 0%, #E5D5FF 0%, #FFFFFF 100%);
+}

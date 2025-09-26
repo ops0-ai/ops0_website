@@ -13,27 +13,6 @@ const Logo = () => {
 <path d="M59.9873 33.1164V29.8202C56.7826 29.5448 54.256 26.7413 54.256 23.3325V17.6447H51.1016V23.3325C51.1016 28.555 55.0422 32.8353 59.9873 33.1164Z" fill="url(#paint2_linear_2_8258)"/>
 <path d="M60.5048 26.846C55.3195 26.846 51.1016 22.4508 51.1016 17.0474C51.1016 11.6441 55.3195 7.24884 60.5048 7.24884C65.6902 7.24884 69.9078 11.6441 69.9078 17.0474C69.9078 22.4508 65.6902 26.846 60.5048 26.846ZM60.5048 10.5507C57.0665 10.5507 54.2702 13.4646 54.2702 17.0474C54.2702 20.6303 57.0665 23.5442 60.5048 23.5442C63.9432 23.5442 66.7395 20.6291 66.7395 17.0474C66.7395 13.4657 63.9432 10.5507 60.5048 10.5507Z" fill="url(#paint3_linear_2_8258)"/>
 </g>
-<defs>
-<linearGradient id="paint0_linear_2_8258" x1="42.9419" y1="41.9585" x2="72.1068" y2="3.73073" gradientUnits="userSpaceOnUse">
-<stop offset="0.04" stopColor="#5855A4"/>
-<stop offset="1" stopColor="#7ED0E6"/>
-</linearGradient>
-<linearGradient id="paint1_linear_2_8258" x1="64.0542" y1="2.38279" x2="68.9534" y2="15.5684" gradientUnits="userSpaceOnUse">
-<stop stopOpacity="0"/>
-<stop offset="1"/>
-</linearGradient>
-<linearGradient id="paint2_linear_2_8258" x1="56.835" y1="31.8898" x2="51.8146" y2="15.3837" gradientUnits="userSpaceOnUse">
-<stop stopOpacity="0"/>
-<stop offset="1"/>
-</linearGradient>
-<linearGradient id="paint3_linear_2_8258" x1="42.9812" y1="41.9876" x2="72.1451" y2="3.761" gradientUnits="userSpaceOnUse">
-<stop offset="0.04" stopColor="#5855A4"/>
-<stop offset="1" stopColor="#7ED0E6"/>
-</linearGradient>
-<clipPath id="clip0_2_8258">
-<rect width="70" height="32.9808" fill="white" transform="translate(0 0.719604)"/>
-</clipPath>
-</defs>
 </svg>
 
   )

@@ -5,7 +5,7 @@ import { Pencil, Sliders, Rocket } from "lucide-react"; // using lucide-react fo
 
 export default function CommandCenter() {
   return (
-    <section className="  flex flex-col items-center   container mx-auto    px-6">
+    <section className="mt-4 lg:mt-[70px] flex flex-col items-center container mx-auto px-6">
       {/* Top label */}
       <div className="mb-16 max-md:text-center">
         <span className="px-4 py-2  md:bg-gray-800/80 rounded-md text-white text-sm font-mono  ">
@@ -14,7 +14,7 @@ export default function CommandCenter() {
       </div>
 
       {/* Three columns */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center ">
+      <div className="grid grid-cols-3 gap-12 text-center mt-4">
         {/* Card 1 */}
         <div className="flex flex-col items-center">
           <div className="w-20 h-20 flex items-center justify-center rounded-lg border border-gray-700 bg-black/40 shadow-[0_0_30px_rgba(59,130,246,0.2)]">

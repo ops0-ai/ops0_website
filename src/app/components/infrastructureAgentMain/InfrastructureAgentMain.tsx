@@ -19,7 +19,7 @@ function InfrastructureAgentMain() {
     <div className="relative text-white">
       <TabNavigation activeTab={activeTab} onTabChange={handleTabChange} />
 
-      <div className="flex max-md:flex-col gap-4 border-gradient">
+      <div className="flex max-md:flex-col gap-4 ">
         <div className="md:w-[30%]">
 
           <InfrastructureAgent activeTab={activeTab} />
